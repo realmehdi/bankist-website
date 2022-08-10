@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بانکدار</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/img/icon.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- NAVBAR -->
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--btn btn--show-modal"
+              >باز کردن حساب</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="#section--1" class="nav__link">امکانات</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link">گردش های مالی</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link">گواهی نامه ها</a>
+          </li>
+        </ul>
+        <a href="#" class="nav__logo--title"
+          >بانکدار
+          <img
+            src="./assets/img/logo.png"
+            alt="bankist logo"
+            class="nav__logo"
+            id="logo"
+          />
+        </a>
+      </nav>
+
+      <!-- TITLE  -->
+      <div class="header__title">
+        <img
+          src="./assets/img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+        <h1>
+          وقتی
+          <!-- Green highlight effect -->
+          <span class="highlight">بانکداری</span>
+          با
+          <span class="highlight">ظرافت و سادگی</span>
+          روبه رو میشود
+        </h1>
+        <h4>تجربه بانکداری ساده تر برای یک زندگی ساده تر.</h4>
+        <button class="btn--text btn--scroll-to">
+          بیشتر بدانید &DownArrow;
+        </button>
+      </div>
+    </header>
+
+    <!-- SECTION 1 -->
+    <section class="section" id="section--1">
+      <!-- SECTION TITLE  -->
+      <div class="section__title">
+        <h2 class="section__description">امکانات</h2>
+        <h3 class="section__header">
+          هر چیزی که در یک بانک مدرن نیاز دارید و حتی بیشتر.
+        </h3>
+      </div>
+
+      <!-- FEATURES  -->
+      <div class="features">
+        <!-- FEATURE DIGITAL BANK  -->
+        <img
+          src="./assets/img/digital-lazy.jpg"
+          alt="Computer"
+          data-src="./assets/img/digital.jpg"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="./assets/img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">بانک 100% دیجیتال</h5>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است.
+          </p>
+        </div>
+        <!-- FEATURE GROW  -->
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="./assets/img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">شاهد رشد سرمایه خود باشید</h5>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است.
+          </p>
+        </div>
+        <img
+          src="./assets/img/grow-lazy.jpg"
+          alt="Plant"
+          data-src="./assets/img/grow.jpg"
+          class="features__img lazy-img"
+        />
+        <!-- FEATURE DEBIT CARD -->
+        <img
+          src="./assets/img/card-lazy.jpg"
+          alt="Credit card"
+          data-src="./assets/img/card.jpg"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="./assets/img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">کارت اعتباری رایگان اضافه شد</h5>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 2 -->
+    <section class="section" id="section--2">
+      <!-- SECTION TITLE  -->
+      <div class="section__title">
+        <h2 class="section__description">گردش ها</h2>
+        <h3 class="section__header">
+          همه چیز به ساده ترین شکل ممکن، اما نه ساده تر.
+        </h3>
+      </div>
+      <!-- OPERATIONS -->
+      <div class="operations">
+        <!-- OPERATION TABS -->
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>انتقال وجه فوری
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>وام فوری
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>بستن حساب فوری
+          </button>
+        </div>
+        <!-- OPERATIONS CONTENT 1 -->
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="./assets/img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            انتقال وجه به هر کسی، در لحظه! بدون کارمزد
+          </h5>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+          </p>
+        </div>
+        <!-- OPERATIONS CONTENT 2 -->
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="./assets/img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            با وام فوری، خانه بخرید یا به رویا های خود تحقق ببخشید.
+          </h5>
+          <p>
+            کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه
+            و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+            رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد
+            کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+            راهکارها، و شرایط سخت تایپ به پایان رسد.
+          </p>
+        </div>
+        <!-- OPERATIONS CONTENT 3 -->
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="./assets/img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            دیگر نیازی به حساب بانکی خود ندارید؟ فورا آن را ببندید.
+          </h5>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 3 -->
+    <section class="section" id="section--3">
+      <!-- SECTION TITLE  -->
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">هنوز مطمئن نیستید؟</h2>
+        <h3 class="section__header">
+          میلیون ها کاربر تا الان زندگی خود را راحت تر و ساده تر کرده اند.
+        </h3>
+      </div>
+      <!-- SLIDER -->
+      <div class="slider">
+        <!-- SLIDE 1 -->
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              بهترین تصمیم سرمایه گذاری تا ابد
+            </h5>
+            <blockquote class="testimonial__text">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+              نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+              کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+              جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="./assets/img/user-0.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">مهدی لطیفی</h6>
+              <p class="testimonial__location">شیراز، ایران</p>
+            </address>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">آخرین قدم برای ساده گرایی</h5>
+            <blockquote class="testimonial__text">
+              ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+              نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+              کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+              جامعه و متخصصان را می طلبد.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="./assets/img/user-2.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">دیانا آگاهی</h6>
+              <p class="testimonial__location">سانفرانسیسکو، آمریکا</p>
+            </address>
+          </div>
+        </div>
+        <!-- SLIDE 3 -->
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">خداحافظی با بانک های قدیمی</h5>
+            <blockquote class="testimonial__text">
+              چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+              است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+              هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد
+              گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+              نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="./assets/img/user-3.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">سپهر شهریاری</h6>
+              <p class="testimonial__location">مادرید، اسپانیا</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- sign up -->
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          بهترین روز برای پیوستن به بانکداری یک سال پیش بود. بهترین روز بعدی
+          امروزِ
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">
+        امروز حساب رایگان خودتو باز کن!
+      </button>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a href="#" class="footer__link">درباره ما</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">قیمت گذاری</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">شرایط استفاده</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">حریم خصوصی و امنیت</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">مشاغل</a>
+        </li>
+        <li class="footer__item"><a href="#" class="footer__link">وبلاگ</a></li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">ارتباط با ما</a>
+        </li>
+      </ul>
+      <img src="./assets/img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        تمامی حقوق این وبسایت محفوظ میباشد و هرگونه تخلف پیگیرد قانونی دارد.
+      </p>
+    </footer>
+    <!-- MODAL WINDOW -->
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        حساب بانکی خود را در کمتر از <br />
+        <span class="highlight">5 دقیقه</span> باز کنید
+      </h2>
+      <form class="modal__form">
+        <label>نام</label>
+        <input type="text" />
+        <label>نام خانوادگی</label>
+        <input type="text" />
+        <label>آدرس ایمیل</label>
+        <input type="email" />
+        <button class="btn">&rarr; قدم بعدی</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="./assets/js/script.js"></script> -->
+  </body>
+</html>
