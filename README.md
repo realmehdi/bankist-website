@@ -12,3 +12,5 @@ Effects that I have used:
 - slider component
 - nice popup window (modal window)
 So I hope you like this website. 
+
+https://user-images.githubusercontent.com/98580873/187065712-d6b905f8-581b-407b-81b9-1a504aa7c256.jpg
